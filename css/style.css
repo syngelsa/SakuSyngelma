@@ -1,63 +1,54 @@
 body{
-  background:#F5F5DC url(images/bg.jpg) repeat-x;
-}
-
+	background: #F5F5DC  url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;
+	}
 #wrap{
-  width:700px;
-  margin: 0px auto 25px auto;
-  font-family:verdana, Arial, Helvetica;
-  font-size:20px;
-  color:#0000FF;
-
+	width:699px;
+	margin:0px auto 15px auto;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0000FF;
 }
-/* Header */
-#header {
-height:200PX;
-margin: 0px auto 25px auto;
-font-family:verdana, Arial, Helvetica;
-color:#5F9EA0;
-
+/*Header*/
+#header{
+	height:242px;
+	background:url("https://github.com/dipaish/www_dkc/blob/master/images/header.png?raw=true") no-repeat left top;
+	clear: both;
 }
-
-/*Header menu*/
-#topmenu{
-display:block;
-  list-style:none;
-  padding:0 0px 0px 278px;
-  float: right;
-  width: 415px;
+/*Header Menu*/
+#topmenu {
+	display:block;
+	list-style:none;
+	padding:0 0px 0px 278px;
+	float: right;
+	width: 415px;
 }
-
-#topmenu li{
-display:inline;
+#topmenu li {
+	display:inline;
 }
-
-#topmenu a{
-display:block;
-  float: left;
-  heigth: 28px;
-  margin:0 0px 0px 0px;
-  text - decoration:none;
-  padding:9px 15px 0px 15px;
-  text-align:center;
+#topmenu a {
+	display:block;
+	float:left;
+	height:28px;
+	margin:0px 0px 0px0px;
+	text-decoration:none;
+	padding:9px 15px 0px 15px;
+	text-align:center;
 }
-#topmenu a,#topmenu a:visited, #topmenu a:active{
-  color:#F0F8FF;
+#topmenu a, #topmenu a:visited, #topmenu a:active {
+	color:#0000FF;
 }
-
 #topmenu a:hover{
-  color:#F0F8FFC;
-  background-color: #F5F5DC;
+	color:#0000FF;
+	background-color: #F5F5DC
 }
-
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-  color #F0F8FFC;
-  background-color: #F5F5DC;
+	color:#0000FF;
+	background-color: #F5F5DC
 }
 
 /*Content*/
 #content {
-	background-color: #FFFFFF;
+	background-color: #F5F5DC
 }
 #mainpage {
 	width:700px;
@@ -79,7 +70,7 @@ display:block;
 h1, h2, h3, h4, h5 {
 	color:#A52A2A;
 	font-weight:bold;
-	font-family: Arial, Helvetica;
+	font-family: Arial, Helvetica, sans-serif;
 }
 #mainpage h1 {
 	font-size:24px;
@@ -88,7 +79,7 @@ h1, h2, h3, h4, h5 {
 	font-size:18px;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #B52E10;
+	border-bottom: 1px solid #00008B;
 }
 #mainpage h3 {
 	font-size:20px;}
@@ -105,8 +96,8 @@ h1, h2, h3, h4, h5 {
 	padding:10px;
 	color:#FFFFFF;
 	text-align: center;
-	background:#333333;
-	font-family: Verdana, Arial, Helvetica;
+	background:#F5F5DC
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	clear: both;
 }
@@ -114,6 +105,3 @@ h1, h2, h3, h4, h5 {
 #topbar{
 	height:78px;
 }
-
-  
-  
