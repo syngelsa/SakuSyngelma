@@ -1,7 +1,19 @@
+body{
+  background:#F5F5DC url(images/bg.jpg) repeat-x;
+}
+
+#wrap{
+  width:700px;
+  margin: 0px auto 25px auto;
+  font-family:verdana, Arial, Helvetica;
+  font-size:20px;
+  color:#0000FF;
+
+}
 /* Header */
 #header {
-height:120PX;
-margin: 0px auto 50px auto;
+height:200PX;
+margin: 0px auto 25px auto;
 font-family:verdana, Arial, Helvetica;
 color:#5F9EA0;
 
