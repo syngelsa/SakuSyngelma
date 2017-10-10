@@ -1,5 +1,5 @@
 body{
-	background:#F5F5DC url(images/bg.jpg) repeat-x;
+	background:url(Images/Header.png) no-repeat left top;
 	}
 #wrap{
 	width:699px;
