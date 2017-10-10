@@ -1,5 +1,5 @@
 body{
-	background: #F5F5DC  
+	background:#F5F5DC url(images/bg.jpg) repeat-x;
 	}
 #wrap{
 	width:699px;
