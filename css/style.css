@@ -11,10 +11,9 @@ body{
 /*Header*/
 #header{
 	height:242px;
-	margin:0px auto 20px auto;
-	font-family:Verdana, Arial, Helvetica;
-	font-size:14px;
-	color:#0000FF;
+	background:url(Images/Header.png) no-repeat left top
+		clear: both;
+	
 }
 
 #topbar{
@@ -102,7 +101,7 @@ h1, h2, h3, h4 {
 	color:#FFFFFF;
 	text-align: center;
 	background:#F5F5DC
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica;
 	font-size: 11px;
 	clear: both;
 }
