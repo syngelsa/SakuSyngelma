@@ -47,10 +47,7 @@ body{
 	color:#FF7F50;
 	background-color: #DEB887
 }
-#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-	color:#FF7F50;
-	
-}
+
 
 /*Content*/
 #content {
