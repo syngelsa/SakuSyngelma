@@ -43,7 +43,7 @@ body{
 	color:#8B0000;
 }
 #topmenu a:hover{
-	color:#F5F5DC;
+	color:#DEB887;
 	background-color: #DEB887
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
