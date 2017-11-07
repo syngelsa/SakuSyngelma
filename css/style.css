@@ -6,12 +6,12 @@ body{
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica;
 	font-size:14px;
-	color:#F5F5DC;
+	color:#8B0000;
 }
 /*Header*/
 #header{
 	height:150px;
-	background:url(Images/Header.png) no-repeat left top
+	background:url(Images/Header.png) no-repeat left top;
 		clear: both;
 	
 }
