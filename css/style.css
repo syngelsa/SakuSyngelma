@@ -64,7 +64,7 @@ body{
 #mainpage p {
 	line-height:22px;
 	margin:10px 0px 22px 0px;
-	text-align: justify;
+	text-align: center;
 }
 #mainpage blockquote {
 	background:#efefef;
