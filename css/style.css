@@ -5,7 +5,7 @@ body{
 	width:600px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica;
-	font-size:14px;
+	font-size:18px;
 	color:#8B0000;
 }
 /*Header*/
@@ -40,7 +40,7 @@ body{
 	text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-	color:#DEB887;
+	color:#A52A2A;
 }
 #topmenu a:hover{
 	color:#FF7F50;
@@ -53,7 +53,7 @@ body{
 
 /*Content*/
 #content {
-	background-color: #F0FFFF
+	background-color: #A52A2A;
 }
 #mainpage {
 	width:700px;
