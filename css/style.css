@@ -40,7 +40,7 @@ body{
 	text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-	color:#FF7F50;
+	color:#A52A2A;
 
 }
 #topmenu a:hover{
@@ -51,7 +51,7 @@ body{
 
 /*Content*/
 #content {
-	background-color: #A52A2A;
+	background-color: #FF7F50;
 }
 #mainpage {
 	width:700px;
@@ -71,7 +71,7 @@ body{
 	font:Georgia, "Times New Roman", Times;
 	font-style:italic;}
 h1, h2, h3, h4 {
-	color:#A52A2A;
+	color:#FF7F50;
 	font-weight:bold;
 	font-family: Arial, Helvetica;
 }
@@ -82,7 +82,7 @@ h1, h2, h3, h4 {
 	font-size:18px;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #00008B;
+	border-bottom: 3px solid #FF7F50;
 }
 #mainpage h3 {
 	font-size:20px;}
