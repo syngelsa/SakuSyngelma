@@ -40,11 +40,11 @@ body{
 	text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-	color:#F5F5DC;
+	color:#8B0000;
 }
 #topmenu a:hover{
 	color:#F5F5DC;
-	background-color: #F5F5DC
+	background-color: #DEB887
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 	color:#F5F5DC;
