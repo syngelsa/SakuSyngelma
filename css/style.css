@@ -11,8 +11,10 @@ body{
 /*Header*/
 #header{
 	height:242px;
-	background:url("https://github.com/dipaish/www_dkc/blob/master/images/header.png?raw=true") no-repeat left top;
-	clear: both;
+	margin:0px auto 20px auto;
+	font-family:Verdana, Arial, Helvetica;
+	font-size:14px;
+	color:#0000FF;
 }
 
 #topbar{
