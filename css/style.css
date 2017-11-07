@@ -5,7 +5,7 @@ body{
 	width:600px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica;
-	font-size:18px;
+	font-size:16px;
 	color:#8B0000;
 }
 /*Header*/
@@ -78,7 +78,7 @@ h1, h2, h3, h4 {
 	font-family: Arial, Helvetica;
 }
 #mainpage h1 {
-	font-size:24px;
+	font-size:18px;
 }
 #mainpage h2 {
 	font-size:18px;
