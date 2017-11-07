@@ -48,12 +48,12 @@ body{
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 	color:#F5F5DC;
-	background-color: #F5F5DC
+	background-color: #FF7F50
 }
 
 /*Content*/
 #content {
-	background-color: #F5F5DC
+	background-color: #F0FFFF
 }
 #mainpage {
 	width:700px;
