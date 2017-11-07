@@ -4,8 +4,8 @@ body{
 #wrap{
 	width:600px;
 	margin:0px auto 15px auto;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-family:Verdana, Arial, Helvetica;
+	font-size:14px;
 	color:#0000FF;
 }
 /*Header*/
@@ -14,11 +14,15 @@ body{
 	background:url("https://github.com/dipaish/www_dkc/blob/master/images/header.png?raw=true") no-repeat left top;
 	clear: both;
 }
+
+#topbar{
+	height:90;
+}
 /*Header Menu*/
 #topmenu {
 	display:block;
 	list-style:none;
-	padding:0 0px 0px 278px;
+	padding:0 0px 0px 242px;
 	float: right;
 	width: 415px;
 }
@@ -64,13 +68,13 @@ body{
 #mainpage blockquote {
 	background:#efefef;
 	display:block; 
-	margin:5px;
-	font:Georgia, "Times New Roman", Times, serif; 
+	margin:8px;
+	font:Georgia, "Times New Roman", Times;
 	font-style:italic;}
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
 	color:#A52A2A;
 	font-weight:bold;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica;
 }
 #mainpage h1 {
 	font-size:24px;
@@ -84,9 +88,8 @@ h1, h2, h3, h4, h5 {
 #mainpage h3 {
 	font-size:20px;}
 #mainpage h4 {
-	font-size:18px;}
-#mainpage h5 {
-	font-size:16px;}
+	font-size:20px;}
+
 
 /*footer*/
 #footer {
