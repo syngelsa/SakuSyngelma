@@ -40,7 +40,7 @@ body{
 	text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-	color:#A52A2A;
+	color:#FF7F50;
 }
 #topmenu a:hover{
 	color:#FF7F50;
@@ -48,7 +48,7 @@ body{
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 	color:#FF7F50;
-	background-color: #F5F5DC
+	background-color: #DEB887
 }
 
 /*Content*/
