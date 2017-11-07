@@ -5,12 +5,12 @@ body{
 	width:600px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica;
-	font-size:16px;
+	font-size:18px;
 	color:#8B0000;
 }
 /*Header*/
 #header{
-	height:150px;
+	height:180px;
 	background:url(Images/Header.png) no-repeat left top;
 		clear: both;
 	
@@ -76,10 +76,10 @@ h1, h2, h3, h4 {
 	font-family: Arial, Helvetica;
 }
 #mainpage h1 {
-	font-size:18px;
+	font-size:25px;
 }
 #mainpage h2 {
-	font-size:18px;
+	font-size:22px;
 	padding-top: 20px;
 	padding-bottom: 5px;
 	border-bottom: 3px solid #FF7F50;
