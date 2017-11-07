@@ -1,5 +1,5 @@
 body{
-	background:	#0000FF url(Images/Header.png) repeat-x;
+	background:	#F5F5DC url(Images/Header.png) repeat-x;
 	}
 #wrap{
 	width:600px;
@@ -40,14 +40,14 @@ body{
 	text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-	color:#0000FF;
+	color:#F5F5DC;
 }
 #topmenu a:hover{
-	color:#0000FF;
+	color:#F5F5DC;
 	background-color: #F5F5DC
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-	color:#0000FF;
+	color:#F5F5DC;
 	background-color: #F5F5DC
 }
 
