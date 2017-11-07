@@ -5,7 +5,7 @@ body{
 	width:600px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica;
-	font-size:18px;
+	font-size:24px;
 	color:#8B0000;
 }
 /*Header*/
@@ -47,7 +47,7 @@ body{
 	background-color: #DEB887
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-	color:#F5F5DC;
+	color:#A52A2A;
 	background-color: #FF7F50
 }
 
@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 	width:685px;
 	height:20px;
 	padding:10px;
-	color:#FFFFFF;
+	color:#A52A2A;
 	text-align: center;
 	background:#F5F5DC
 	font-family: Verdana, Arial, Helvetica;
