@@ -52,9 +52,9 @@ body{
 	background-color: #FF7F50;
 }
 #mainpage {
-	width:700px;
+	width:900px;
 	float:left;
-	padding:5px 5px 5px 0px;
+	padding:10px 10px 10px 0px;
 	height:auto
 }
 #mainpage p {
