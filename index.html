@@ -8,19 +8,19 @@
         <script>
     function validateForm()
 {
-if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+if (document.forms["myForm"]["name"].value==null || document.forms["feedbackform"]["name"].value=="")
 {
 alert("Name must be filled out");
 return false;
 }
-if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
+if (document.forms["feedbackform"]["age"].value==null || document.forms["feedbackform"]["age"].value=="")
 {
-alert("Phone must be filled out");
+alert("Age must be filled out");
 return false;
 }
-if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+if (document.forms["feedbackform"]["feedback"].value=="no" || document.forms["feedbackform"]["feedback"].value=="")
 {
-alert("Email must be filled out");
+alert("That seems like the wrong answer");
 return false;
 }
 return true;
@@ -110,20 +110,15 @@ return true;
              <input type="submit" value="Submit">
             </form>
 
-<form name="myForm" onsubmit="return validateForm()" >
+<form name="feedbackform" onsubmit="return validateForm()" >
 Name: <input type="text" name="name" /><br/>
-Phone: <input type="text" name="phone" /><br/>
-E-mail: <input type="text" name="email" /><br/>
-<input type="submit" value="Click to Submit" />
+Age: <input type="text" name="age" /><br/>
+Feedback:</br>
+<input type="radio" name="feedback" value="yes" checked> Yes /><br/>
+<input type="radio" name="feedback" value="no" > No /><br/> 
+<input type="submit" value="Click to Submit">
 </form>   
 
-<form name="myForm" onsubmit="return validateForm()" >
-Name: <input type="text" name="name" /><br/>
-Phone: <input type="text" name="phone" /><br/>
-E-mail: <input type="text" name="email" /><br/>
-<input type="submit" value="Click to Submit" />
-</form>
-             
             
   <div id="footer">
       <p> This is the end of the line, go back up
