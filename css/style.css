@@ -59,7 +59,7 @@ body{
 }
 #mainpage p {
 	line-height:25px;
-	margin:10px 0px 22px 0px;
+	margin:45px 0px 22px 0px;
 	text-align: justify;
 }
 #mainpage blockquote {
@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
 	font-family: Arial, Helvetica;
 }
 #mainpage h1 {
-	font-size:28px;
+	font-size:35px;
 }
 #mainpage h2 {
 	font-size:24px;
