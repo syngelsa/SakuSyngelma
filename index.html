@@ -5,7 +5,29 @@
     <head>
         <title>WWW ja Internet - 2017 course webpage</title>
             <link href="css/style.css" rel="stylesheet" type="text/css">
-            </head>
+        <script>
+    function validateForm()
+{
+if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+{
+alert("Name must be filled out");
+return false;
+}
+if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
+{
+alert("Phone must be filled out");
+return false;
+}
+if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+{
+alert("Email must be filled out");
+return false;
+}
+return true;
+}        
+      </script>
+    </head>
+    
     <body>
         <div id="wrap">
         <div id="topmenu">
@@ -95,9 +117,12 @@ E-mail: <input type="text" name="email" /><br/>
 <input type="submit" value="Click to Submit" />
 </form>   
 
-    <input type="submit" value="Submit">
-    </form>
-    <h2>Form Validation Example</h2>
+<form name="myForm" onsubmit="return validateForm()" >
+Name: <input type="text" name="name" /><br/>
+Phone: <input type="text" name="phone" /><br/>
+E-mail: <input type="text" name="email" /><br/>
+<input type="submit" value="Click to Submit" />
+</form>
              
             
   <div id="footer">
