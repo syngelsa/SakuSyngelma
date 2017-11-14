@@ -11,7 +11,7 @@ body{
 }
 /*Header*/
 #header{
-	height:180px;
+	height:210px;
 	background:url("https://github.com/syngelsa/SakuSyngelma/blob/master/Images/hello.png?raw=true") no-repeat left top;
 		clear: both;
 	
@@ -103,7 +103,7 @@ h1, h2, h3, h4 {
 }
 
 #topbar{
-	height:55px;
+	height:45px;
 	background-color:blue;
 	position: fixed;
 }
