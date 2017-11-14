@@ -76,18 +76,18 @@ h1, h2, h3, h4 {
 	font-family: Arial, Helvetica;
 }
 #mainpage h1 {
-	font-size:25px;
+	font-size:28px;
 }
 #mainpage h2 {
-	font-size:22px;
+	font-size:24px;
 	padding-top: 20px;
 	padding-bottom: 5px;
 	border-bottom: 3px solid #FF7F50;
 }
 #mainpage h3 {
-	font-size:20px;}
+	font-size:24px;}
 #mainpage h4 {
-	font-size:20px;}
+	font-size:24px;}
 
 
 /*footer*/
@@ -100,7 +100,7 @@ h1, h2, h3, h4 {
 	text-align: center;
 	background:#F5F5DC
 	font-family: Verdana, Arial, Helvetica;
-	font-size: 11px;
+	font-size: 15px;
 	clear: both;
 }
 
