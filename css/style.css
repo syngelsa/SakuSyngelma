@@ -26,6 +26,8 @@ body{
 	padding:0 0px 0px 242px;
 	float: right;
 	width: 600px;
+	Background-color: black;
+	position: fixed;
 }
 #topmenu li {
 	display:inline;
