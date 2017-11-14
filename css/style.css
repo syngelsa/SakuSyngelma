@@ -103,8 +103,8 @@ h1, h2, h3, h4 {
 }
 
 #topbar{
-	height:78px;
-	background-color:black;
+	height:55px;
+	background-color:blue;
 	position: fixed;
 }
 
