@@ -20,7 +20,7 @@ body{
 /*Header Menu*/
 #topmenu {
 	display:block;
-	list-style:none;
+	/*list-style:none;*/
 	padding:0 0px 0px 242px;
 	float: right;
 	width: 600px;
