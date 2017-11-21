@@ -18,6 +18,11 @@ if (document.forms["feedbackform"]["age"].value==null || document.forms["feedbac
 alert("Age must be filled out");
 return false;
 }
+    if (document.forms["feedbackform"]["feedback"].value="yes" || document.forms["feedbackform"]["feedback"].value=="")
+{
+alert("I agree");
+return true;
+}
 
 return true;
 }        
