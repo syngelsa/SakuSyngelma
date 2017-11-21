@@ -18,16 +18,17 @@ if (document.forms["feedbackform"]["age"].value==null || document.forms["feedbac
 alert("Age must be filled out");
 return false;
 }
-        if (document.forms["feedbackform"]["feedback"].value="no" || document.forms["feedbackform"]["feedback"].value=="")
-{
-alert("That doesn't seem right");
-return false;
-}
-    if (document.forms["feedbackform"]["feedback"].value="yes" || document.forms["feedbackform"]["feedback"].value=="")
-{
-alert("I agree");
-return true;
-}
+
+    if (document.forms["feedbackform"]["feedback"].value=="no" || document.forms["feedbackform"]["feedback"].value=="")
+    {
+        alert("That doesn't seem right");
+        return false;
+    }
+    if (document.forms["feedbackform"]["feedback"].value=="yes" || document.forms["feedbackform"]["feedback"].value=="")
+    {
+        alert("I agree");
+        return true;
+    }
 
 return true;
 }        
@@ -59,9 +60,9 @@ return true;
            
       <h1> My amazing website </h1>
       <h2> What is it about </h2>
-      <p> This is my webpage, that I've made  for this course. To be fair, it's most likely not actually that amazing but hopefully, by the end of the course,
+      <p> This is my webpage, that I've made  for this course. To be fair, it's most likely not actually that amazing, but hopefully by the end of the course,
           it's not going to be among the worst pages in history</p>          
-                    <h2 id="lists"> This page is going to have many spectacular features:</h2>
+                    <h2 id="lists"> This page is going to have many spectacular features</h2>
           <ul>
               <li><b>Lists - </b>
                   As seen here</list>
