@@ -25,9 +25,7 @@ body{
 	float: right;
 	width: 600px;
 }
-#topmenu li {
-	/*display:inline;*/
-}
+
 #topmenu a {
 	display:block;
 	float:left;
@@ -45,7 +43,9 @@ body{
 	color:#FF7F50;
 	background-color: #DEB887
 }
-
+#topmenu li {
+	/*display:inline;*/
+}
 
 /*Content*/
 #content {
