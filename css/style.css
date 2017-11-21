@@ -25,7 +25,7 @@ body{
 	float: right;
 	width: 600px;
 }
-#topmenu li {
+#topbar li {
 	display:inline;
 }
 
@@ -54,7 +54,7 @@ body{
 #mainpage {
 	width:900px;
 	float:left;
-	padding:70px 10px 10px 0px;
+	padding:64px 10px 10px 0px;
 	height:auto
 }
 #mainpage p {
