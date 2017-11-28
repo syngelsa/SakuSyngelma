@@ -98,17 +98,20 @@ return true;
         <img src="http://media.indiedb.com/images/groups/1/8/7737/KajakGamesLogo.png" alt= "Kajak Games logo">
                 
 <div id="map"></div>
-function initMap(){
-    var location = { lat: 64.216456, lng: 27.715046};
-    var map = new google.maps.Map(document.getElementById("map"),{
-    zoom: 4,
-    center: location
-});
-    var marker = new google.maps.Marker({
-    position: location,
-    map: map
+<script>
+    function initMap(){
+        var location = { lat: 64.216456, lng: 27.715046};
+        var map = new google.maps.Map(document.getElementById("map"),{
+        zoom: 4,
+        center: location
+    });
+
+        var marker = new google.maps.Marker({
+        position: location,
+        map: map
     });
 }
+</script>
                 
     <script async defer src="https://maps.googleapis.com/maps/api/
     js?key=AIzaSyAY2gO-QWps0jlcd9bN9csLRVuBX_dTHQE&callback=initMap">
