@@ -131,6 +131,9 @@ width: 75%;
 background-color:#E9967A;
 	
 }
+#map {
+	height: 300px;
+	width: 100%;
 
 #div1 {
     width: 410px;
