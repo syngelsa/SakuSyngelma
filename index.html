@@ -99,14 +99,19 @@ return true;
         <script>
             function initMap(){
                 var location = { lat: 64.215, lng: 27.710};
-                var map = new google.maps.Map(document.getElementById("map"),){
+                var map = new google.maps.Map(document.getElementById("map"),{
                     zoom: 4,
                     center: location
+                });
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: map
                 });
             }
            
         </script>
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY2gO-QWps0jlcd9bN9csLRVuBX_dTHQE&callback=initMap"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/
+                js?key=AIzaSyAY2gO-QWps0jlcd9bN9csLRVuBX_dTHQE&callback=initMap"></script>
 
 <h2 id="video">Game jam video</h2>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fVGIwT2o1ck?rel=0&amp;start=21" frameborder="0" allowfullscreen></iframe>
