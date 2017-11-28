@@ -7,6 +7,18 @@
         <meta name="keywords" content="HTML,Page,Best,KAMK,School course"/>
             <link href="css/style.css" rel="stylesheet" type="text/css">
         <script>
+function initMap(){
+    var location = { lat: 64.216456, lng: 27.715046};
+    var map = new google.maps.Map(document.getElementById("map"),{
+    zoom: 4,
+    center: location
+});
+    var marker = new google.maps.Marker({
+    position: location,
+    map: map
+    });
+}
+            
 function allowDrop(ev) {
     ev.preventDefault();
 }
@@ -48,6 +60,11 @@ return false;
 return true;
 }        
       </script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/
+        js?key=AIzaSyAY2gO-QWps0jlcd9bN9csLRVuBX_dTHQE&callback=initMap">
+        </script>
+        
     </head>
     
     <body>
@@ -96,24 +113,9 @@ return true;
         <img src="http://media.indiedb.com/images/groups/1/8/7737/KajakGamesLogo.png" alt= "Kajak Games logo">
                 
 <div id="map"></div>
-        <script>
-            function initMap(){
-                var location = { lat: 64.216456, lng: 27.715046};
-                var map = new google.maps.Map(document.getElementById("map"),{
-                    zoom: 4,
-                    center: location
-                });
-                var marker = new google.maps.Marker({
-                    position: location,
-                    map: map
-                });
-            }
-           
-        </script>
-                <script async defer src="https://maps.googleapis.com/maps/api/
-                js?key=AIzaSyAY2gO-QWps0jlcd9bN9csLRVuBX_dTHQE&callback=initMap"></script>
 
-<h2 id="video">Game jam video</h2>
+                
+Game jam video</h2>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/fVGIwT2o1ck?rel=0&amp;start=21" frameborder="0" allowfullscreen></iframe>
 </video>
 
