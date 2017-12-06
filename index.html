@@ -97,25 +97,20 @@ return true;
         <a href="https://www.kajakgames.com" target="_blank"> Kajak Games page </a> <br>
         <img src="http://media.indiedb.com/images/groups/1/8/7737/KajakGamesLogo.png" alt= "Kajak Games logo">
                 
-<div id="map">
-<script>
-    function initMap(){
-        var location = { lat: 64.216456, lng: 27.715046};
-        var map = new google.maps.Map(document.getElementById("map"),{
-        zoom: 4,
-        center: location
-    });
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-        var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
 </script>
-                
-    <script src="https://maps.googleapis.com/maps/api/
-    js?key=AIzaSyAY2gO-QWps0jlcd9bN9csLRVuBX_dTHQE&callback=initMap">
-    </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
  </div>       
 
                 
